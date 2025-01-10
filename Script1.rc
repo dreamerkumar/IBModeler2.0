@@ -1,0 +1,1095 @@
+//Microsoft Developer Studio generated resource script.
+//
+#include "resource.h"
+
+// Generated Help ID header file
+#define APSTUDIO_HIDDEN_SYMBOLS
+#include "resource.hm"
+#undef APSTUDIO_HIDDEN_SYMBOLS
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "resource.h\0"
+END
+
+2 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE DISCARDABLE 
+BEGIN
+    "\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_CHILDFRAME2 MENU DISCARDABLE 
+BEGIN
+    POPUP "&Options"
+    BEGIN
+        MENUITEM "&Close File\tCtrl + F4",      ID_FILE_CLOSE
+        MENUITEM "&Exit\t Alt+F4",              1103
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Model Info        Ctrl + I", 3201
+        POPUP "&Color"
+        BEGIN
+            MENUITEM "&Model Color",                3202
+            MENUITEM "&Choose Different",           3203
+        END
+        POPUP "&Rotate"
+        BEGIN
+            MENUITEM "Toggle Rotation    &R",       3204
+            MENUITEM "Toggle Axis           &A",    3205
+            MENUITEM "Rotation &Speed    Ctrl + R", 3206
+        END
+        POPUP "&View Direction"
+        BEGIN
+            MENUITEM "&Front View",                 3207
+            MENUITEM "&Top View",                   3208
+            MENUITEM "&Left View",                  3209
+            MENUITEM "&Right View",                 3210
+            MENUITEM "&Back View",                  3211
+            MENUITEM "&Bottom View",                3212
+        END
+        MENUITEM "View &Distance",              3213
+        MENUITEM "Toggle Axis Display  &D",     3214
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&Contents\tF1",               1201
+        MENUITEM "&Keyboard Help\tCtrl + K",    3302
+        MENUITEM "&About IBModeler",            1202
+    END
+END
+
+IDR_MAINFRAME MENU DISCARDABLE 
+BEGIN
+    POPUP "&Options"
+    BEGIN
+        MENUITEM "&Create New Model\t Ctrl + N", ID_FILE_NEW
+        MENUITEM "&Open\t Ctrl + O",            ID_FILE_OPEN
+        MENUITEM "&Exit\t Alt + F4",            1103
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&Contents\tF1",               1201
+        MENUITEM "&About IBModeler",            1202
+    END
+END
+
+IDR_CHILDFRAME3 MENU DISCARDABLE 
+BEGIN
+    POPUP "&Options"
+    BEGIN
+        MENUITEM "&Run Script              Alt + R", 2107
+        MENUITEM "&Load Image           Ctrl + O", ID_FILE_OPEN
+        MENUITEM "&Save Image           Ctrl + S", 2103
+        MENUITEM "Save Image &As      Ctrl + Shift + S ", 2104
+        MENUITEM "&Close Image File    Ctrl + Shift + F4", 2105
+        MENUITEM "Create &Model         Ctrl + M", 2106
+        MENUITEM "Clo&se Project         Ctrl + F4", ID_FILE_CLOSE
+        MENUITEM "&Exit                         Alt+F4", 1103
+    END
+    POPUP "&Edit Image"
+    BEGIN
+        MENUITEM "&Undo                 Ctrl + Z", 2201
+        MENUITEM "&Redo                 Ctrl + Y", 2202
+        MENUITEM "&Set Back Screen          S", 2212
+        POPUP "Change Marker &Type"
+        BEGIN
+            MENUITEM "Set &Region As Background   Ctrl + B", 2205
+            MENUITEM "Set &Color As Background      Ctrl + C", 2206
+        END
+        MENUITEM "Change &Marker Size",         2207
+        POPUP "&Camera Parameters"
+        BEGIN
+            MENUITEM "&Change",                     2209
+            MENUITEM "&Save",                       2210
+        END
+        MENUITEM "&Apply To Mold   Ctrl + A",   2211
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&Contents\tF1",               1201
+        MENUITEM "&Keyboard Help\tCtrl + K",    3302
+        MENUITEM "&About IBModeler",            1202
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_CHILDFRAME2         ICON    DISCARDABLE     "ico00002.ico"
+IDR_MAINFRAME           ICON    DISCARDABLE     "icon1.ico"
+IDI_ICON_YES_NO         ICON    DISCARDABLE     "ico00003.ico"
+IDR_CHILDFRAME3         ICON    DISCARDABLE     "ico00004.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_TOOLBAR1 TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      1201
+END
+
+IDR_TOOLBAR2 TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      2107
+    BUTTON      ID_FILE_OPEN
+    BUTTON      2106
+    BUTTON      1201
+    BUTTON      ID_FILE_CLOSE
+END
+
+IDR_TOOLBAR3 TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      2103
+    BUTTON      2104
+    BUTTON      2201
+    BUTTON      2202
+    BUTTON      2212
+    BUTTON      2205
+    BUTTON      2206
+    BUTTON      2207
+    BUTTON      2209
+    BUTTON      2210
+    BUTTON      2211
+    SEPARATOR
+    BUTTON      2105
+END
+
+IDR_TOOLBAR4 TOOLBAR DISCARDABLE  16, 15
+BEGIN
+    BUTTON      3201
+    BUTTON      3202
+    BUTTON      3203
+    BUTTON      3204
+    BUTTON      3205
+    BUTTON      3206
+    BUTTON      3214
+    BUTTON      3213
+    BUTTON      3207
+    BUTTON      3208
+    BUTTON      3209
+    BUTTON      3210
+    BUTTON      3211
+    BUTTON      3212
+    BUTTON      1201
+    BUTTON      ID_FILE_CLOSE
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDB_BITMAP1             BITMAP  DISCARDABLE     "bitmap1.bmp"
+IDR_TOOLBAR1            BITMAP  DISCARDABLE     "bmp00001.bmp"
+IDR_TOOLBAR2            BITMAP  DISCARDABLE     "toolbar2.bmp"
+IDR_TOOLBAR3            BITMAP  DISCARDABLE     "toolbar3.bmp"
+IDR_TOOLBAR4            BITMAP  DISCARDABLE     "toolbar4.bmp"
+IDB_BITMAP2             BITMAP  DISCARDABLE     "bitmap2.bmp"
+IDB_BITMAP3             BITMAP  DISCARDABLE     "bitmap3.bmp"
+IDB_BITMAP4             BITMAP  DISCARDABLE     "bitmap4.bmp"
+IDB_BITMAP5             BITMAP  DISCARDABLE     "bitmap5.bmp"
+IDB_BITMAP6             BITMAP  DISCARDABLE     "bitmap6.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_DIALOG1 DIALOGEX 0, 0, 290, 262
+STYLE DS_MODALFRAME | DS_CONTEXTHELP | WS_POPUP
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    CONTROL         "Snapshots of the model",IDC_RADIO1,"Button",
+                    BS_AUTORADIOBUTTON | WS_GROUP | WS_TABSTOP,139,47,90,10
+    CONTROL         "Slides of cut sections of model",IDC_RADIO2,"Button",
+                    BS_AUTORADIOBUTTON,139,76,135,10
+    EDITTEXT        IDC_EDIT1,32,116,29,15,ES_AUTOHSCROLL,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT2,104,116,29,14,ES_AUTOHSCROLL,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT3,237,116,27,14,ES_AUTOHSCROLL | ES_NUMBER,
+                    WS_EX_STATICEDGE
+    CONTROL         "Spin1",IDC_SPIN1,"msctls_updown32",UDS_WRAP | 
+                    UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS | 
+                    UDS_NOTHOUSANDS,266,116,12,15
+    EDITTEXT        IDC_EDIT4,32,156,29,14,ES_AUTOHSCROLL,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT5,104,156,29,14,ES_AUTOHSCROLL,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT6,237,156,27,14,ES_AUTOHSCROLL | ES_NUMBER,
+                    WS_EX_STATICEDGE
+    CONTROL         "Spin1",IDC_SPIN2,"msctls_updown32",UDS_WRAP | 
+                    UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS | 
+                    UDS_NOTHOUSANDS,266,156,11,15
+    EDITTEXT        IDC_EDIT7,32,196,29,14,ES_AUTOHSCROLL,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT8,104,196,29,14,ES_AUTOHSCROLL,WS_EX_STATICEDGE
+    EDITTEXT        IDC_EDIT9,237,196,27,14,ES_AUTOHSCROLL | ES_NUMBER,
+                    WS_EX_STATICEDGE
+    CONTROL         "Spin1",IDC_SPIN3,"msctls_updown32",UDS_WRAP | 
+                    UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS | 
+                    UDS_NOTHOUSANDS,266,196,11,15
+    PUSHBUTTON      "Help",ID_HELP,129,235,50,14,BS_CENTER
+    DEFPUSHBUTTON   "OK",IDOK,181,235,50,14,BS_CENTER
+    PUSHBUTTON      "Cancel",IDCANCEL,234,235,50,14,BS_CENTER
+    LTEXT           "cms",IDC_STATIC17,136,161,16,10
+    LTEXT           "cms",IDC_STATIC10,136,122,16,10
+    LTEXT           "We first have to create a mold from which the model will be carved out. The mold is a cubical region which encloses the model.",
+                    IDC_STATIC1,7,7,274,19
+    CONTROL         119,IDC_STATIC2,"Static",SS_BITMAP,7,33,83,66
+    GROUPBOX        "Carve the  mold using",IDC_STATIC3,99,30,184,68
+    CONTROL         151,IDC_STATIC5,"Static",SS_BITMAP,103,70,29,25
+    CONTROL         150,IDC_STATIC4,"Static",SS_BITMAP,103,41,29,25
+    GROUPBOX        "Length",IDC_STATIC6,7,105,276,33
+    LTEXT           "Minx:",IDC_STATIC7,13,118,19,13,NOT WS_GROUP
+    LTEXT           "cms",IDC_STATIC8,64,122,16,10
+    LTEXT           "Maxx:",IDC_STATIC9,83,118,19,13,NOT WS_GROUP
+    LTEXT           "Total points along X Axis:",IDC_STATIC11,156,119,81,13,
+                    NOT WS_GROUP
+    GROUPBOX        "Height:",IDC_STATIC13,7,145,276,33
+    LTEXT           "Miny:",IDC_STATIC14,13,158,19,13,NOT WS_GROUP
+    LTEXT           "cms",IDC_STATIC15,64,161,16,10
+    LTEXT           "Maxy:",IDC_STATIC16,83,158,19,13,NOT WS_GROUP
+    LTEXT           "Total points along Y Axis:",IDC_STATIC18,156,156,81,13,
+                    NOT WS_GROUP
+    GROUPBOX        "Thickness",IDC_STATIC20,7,185,276,33
+    LTEXT           "Minz:",IDC_STATIC21,13,198,19,13,NOT WS_GROUP
+    LTEXT           "cms",IDC_STATIC22,64,201,16,10
+    LTEXT           "Maxz:",IDC_STATIC23,83,198,19,13,NOT WS_GROUP
+    LTEXT           "cms",IDC_STATIC24,136,201,16,10
+    LTEXT           "Total points along Z Axis:",IDC_STATIC25,156,198,81,13,
+                    NOT WS_GROUP
+    LTEXT           "Estimated file size:",IDC_STATIC27,5,223,278,10
+END
+
+IDD_DIALOG2 DIALOG DISCARDABLE  0, 0, 167, 95
+STYLE WS_POPUP | WS_BORDER
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Yes",IDOK,58,74,50,14
+    PUSHBUTTON      "No",IDCANCEL,110,74,50,14
+    LTEXT           "The message will be displayed here. ",IDC_STATIC2,39,7,
+                    121,62,WS_TABSTOP
+    ICON            IDI_ICON_YES_NO,IDC_STATIC1,12,11,20,20
+END
+
+IDD_DIALOG3 DIALOG DISCARDABLE  0, 0, 218, 62
+STYLE DS_MODALFRAME | WS_POPUP
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Cancel",IDCANCEL,174,43,37,14
+    CONTROL         "Progress1",IDC_PROGRESS1,"msctls_progress32",WS_BORDER,
+                    7,20,204,11
+    LTEXT           "",IDC_STATIC2,7,34,98,8,SS_CENTERIMAGE | NOT WS_GROUP
+    CTEXT           "Creating Mold",IDC_STATIC1,7,7,204,10,SS_CENTERIMAGE | 
+                    NOT WS_GROUP
+    LTEXT           "",IDC_STATIC3,8,48,161,8,SS_CENTERIMAGE | NOT WS_GROUP
+END
+
+IDD_DIALOG4 DIALOG DISCARDABLE  0, 0, 207, 175
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Marker Size"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Help",ID_HELP,46,154,50,14
+    DEFPUSHBUTTON   "OK",IDOK,98,154,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,150,154,50,14
+    CTEXT           "Marker Size : 1 pixel",IDC_STATIC1,13,7,179,16,
+                    SS_CENTERIMAGE
+END
+
+IDD_DIALOG5 DIALOG DISCARDABLE  0, 0, 247, 189
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Set colors as background"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Use Color Selector >>",IDC_BUTTON3,7,91,78,17
+    PUSHBUTTON      "Define a color range >>",IDC_BUTTON1,87,91,104,17
+    CONTROL         "&Selected color",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,7,111,61,10
+    CONTROL         "Selected and all &brighter colors",IDC_RADIO4,"Button",
+                    BS_AUTORADIOBUTTON,7,124,113,10
+    CONTROL         "Selected and all &darker colors",IDC_RADIO5,"Button",
+                    BS_AUTORADIOBUTTON,7,138,109,10
+    PUSHBUTTON      "Help",ID_HELP,86,168,50,14
+    DEFPUSHBUTTON   "OK",IDOK,138,168,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,190,168,50,14
+    CTEXT           "Select  a range of colors to set as background",
+                    IDC_STATIC1,7,7,233,8
+    CTEXT           "<<--->>",IDC_STATIC,86,44,26,16,SS_CENTERIMAGE | 
+                    WS_BORDER
+    CONTROL         "Sat",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON | 
+                    BS_VCENTER | WS_GROUP,188,154,24,8
+    CONTROL         "Lum",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | 
+                    BS_VCENTER,214,154,26,8
+END
+
+IDD_DIALOG7 DIALOG DISCARDABLE  0, 0, 275, 254
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Define Camera paramenters"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Camera at infinity ",IDC_CHECK1,"Button",
+                    BS_AUTOCHECKBOX | WS_GROUP | WS_TABSTOP,7,109,67,10
+    EDITTEXT        IDC_EDIT14,148,108,34,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT15,224,108,34,12,ES_AUTOHSCROLL
+    GROUPBOX        "Vertical Coverage",IDC_STATIC2,8,124,256,42,WS_GROUP
+    EDITTEXT        IDC_EDIT1,85,134,34,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT2,207,134,34,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT3,85,150,34,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT4,207,150,34,12,ES_AUTOHSCROLL
+    CONTROL         "Horizontal coverage same as vertical",IDC_CHECK2,"Button",
+                    BS_AUTOCHECKBOX | WS_TABSTOP,8,171,132,10
+    EDITTEXT        IDC_EDIT10,85,194,34,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT11,207,194,34,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT12,85,211,34,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT13,207,211,34,12,ES_AUTOHSCROLL
+    PUSHBUTTON      "Help",ID_HELP,26,233,50,15
+    PUSHBUTTON      "&Load info from file",IDC_BUTTON1,77,233,81,15
+    DEFPUSHBUTTON   "&Next->",IDOK,160,233,52,15
+    PUSHBUTTON      "&Cancel",IDCANCEL,214,233,50,15
+    LTEXT           "1. At a distance d1= ",IDC_STATIC3,14,134,66,11
+    LTEXT           "with Coverage Height:",IDC_STATIC32,75,110,71,8,
+                    SS_CENTERIMAGE
+    LTEXT           "2. At a distance d2= ",IDC_STATIC5,14,150,66,11
+    CONTROL         165,IDC_STATIC1,"Static",SS_BITMAP,7,1,257,104
+    LTEXT           "the height covered is h1=",IDC_STATIC4,122,134,85,11
+    LTEXT           "the height covered is h2=",IDC_STATIC6,122,150,85,11
+    GROUPBOX        "Horizontal Coverage",IDC_STATIC8,8,185,256,42,WS_GROUP
+    LTEXT           "1. At a distance d1= ",IDC_STATIC28,14,194,66,11
+    LTEXT           "the width covered is w1=",IDC_STATIC29,122,194,85,11
+    LTEXT           "2. At a distance d2= ",IDC_STATIC30,14,211,66,11
+    LTEXT           "the width covered is w2=",IDC_STATIC7,122,211,85,11
+    LTEXT           "and Width:",IDC_STATIC31,186,110,36,8,SS_CENTERIMAGE
+END
+
+IDD_DIALOG8 DIALOG DISCARDABLE  0, 0, 364, 265
+STYLE DS_MODALFRAME | WS_POPUP
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Change->",IDC_BUTTON13,12,41,106,17
+    PUSHBUTTON      "Change->",IDC_BUTTON14,12,106,106,17
+    PUSHBUTTON      "Front View",IDC_BUTTON8,14,184,49,12,BS_RIGHT
+    PUSHBUTTON      "Back View",IDC_BUTTON9,65,184,49,13,BS_RIGHT
+    PUSHBUTTON      "Top View",IDC_BUTTON4,14,198,49,12,BS_RIGHT
+    PUSHBUTTON      "Bottom View",IDC_BUTTON5,65,198,49,12,BS_RIGHT
+    PUSHBUTTON      "Left View",IDC_BUTTON6,14,212,49,12,BS_RIGHT
+    PUSHBUTTON      "Right View",IDC_BUTTON7,65,212,49,12,BS_RIGHT
+    PUSHBUTTON      "Change ",IDC_BUTTON2,62,235,52,14,BS_MULTILINE
+    PUSHBUTTON      "Help",ID_HELP,122,237,51,20
+    PUSHBUTTON      "Legends",IDC_BUTTON11,175,237,58,20,BS_CENTER
+    DEFPUSHBUTTON   "Apply Image",IDOK,235,237,69,20
+    PUSHBUTTON      "Cancel",IDCANCEL,306,237,50,20
+    GROUPBOX        "Camera Location",IDC_STATIC1,9,2,111,59
+    GROUPBOX        "Looking At",IDC_STATIC5,9,66,111,59
+    LTEXT           "X:",IDC_STATIC8,15,76,99,10,SS_CENTERIMAGE
+    LTEXT           "Y:",IDC_STATIC10,15,86,99,10,SS_CENTERIMAGE
+    LTEXT           "Z:",IDC_STATIC12,15,96,99,10,SS_CENTERIMAGE
+    LTEXT           "X:",IDC_STATIC2,15,11,99,10,SS_CENTERIMAGE
+    LTEXT           "Y:",IDC_STATIC3,15,21,99,10,SS_CENTERIMAGE
+    LTEXT           "Z:",IDC_STATIC4,15,31,99,10,SS_CENTERIMAGE
+    GROUPBOX        "Center Of Cuboid",IDC_STATIC36,9,132,111,30
+    CTEXT           "X:",IDC_STATIC43,15,140,29,10,SS_CENTERIMAGE
+    GROUPBOX        "Display Controls",IDC_STATIC,9,171,111,86
+    CTEXT           "Y:",IDC_STATIC44,49,140,29,10,SS_CENTERIMAGE
+    CTEXT           "Z:",45,85,140,29,10,SS_CENTERIMAGE
+    CTEXT           "X:",IDC_STATIC37,15,150,29,10,SS_CENTERIMAGE
+    CTEXT           "Y:",IDC_STATIC38,49,150,29,10,SS_CENTERIMAGE
+    CTEXT           "Z:",IDC_STATIC39,85,150,29,10,SS_CENTERIMAGE
+    GROUPBOX        "View Distance",IDC_STATIC,11,225,106,27
+    LTEXT           "1000",IDC_STATIC40,15,237,43,8
+END
+
+IDD_DIALOG9 DIALOG DISCARDABLE  0, 0, 121, 130
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "View distance"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LISTBOX         IDC_LIST1,7,7,52,116,LBS_NOINTEGRALHEIGHT | WS_VSCROLL | 
+                    WS_TABSTOP
+    DEFPUSHBUTTON   "OK",IDOK,64,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,64,24,50,14
+END
+
+IDD_DIALOG10 DIALOG DISCARDABLE  0, 0, 237, 234
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Specify the range of mold points for creating model..."
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Total points",IDC_STATIC2,10,100,38,8
+    CONTROL         "Process all",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,10,111,50,10
+    CONTROL         "Process from",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,61,
+                    111,53,10
+    EDITTEXT        IDC_EDIT1,137,110,27,12,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT10,197,110,27,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Total points",IDC_STATIC10,10,139,38,8
+    CONTROL         "Process all",IDC_RADIO4,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,10,150,50,10
+    CONTROL         "Process from",IDC_RADIO6,"Button",BS_AUTORADIOBUTTON,61,
+                    150,53,10
+    EDITTEXT        IDC_EDIT15,137,149,27,12,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT16,197,149,27,12,ES_AUTOHSCROLL | ES_NUMBER
+    LTEXT           "Total points",IDC_STATIC15,10,177,38,8
+    CONTROL         "Process all",IDC_RADIO7,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,10,188,50,10
+    CONTROL         "Process from",IDC_RADIO8,"Button",BS_AUTORADIOBUTTON,61,
+                    188,53,10
+    EDITTEXT        IDC_EDIT17,137,186,27,12,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT18,197,186,27,12,ES_AUTOHSCROLL | ES_NUMBER
+    PUSHBUTTON      "Help",ID_HELP,75,213,50,14
+    DEFPUSHBUTTON   "Next->",IDOK,127,213,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,180,213,50,14
+    GROUPBOX        "Along  X axis",IDC_STATIC1,7,90,223,37
+    LTEXT           "100",IDC_STATIC3,50,100,40,8
+    LTEXT           "to X2 =",IDC_STATIC5,169,111,24,8
+    LTEXT           "X1 =",IDC_STATIC4,117,111,15,8
+    CONTROL         177,IDC_STATIC,"Static",SS_BITMAP,7,7,33,31
+    GROUPBOX        "Along  Y axis",IDC_STATIC8,7,129,223,37
+    LTEXT           "100",IDC_STATIC6,50,139,40,8
+    LTEXT           "to Y2 =",IDC_STATIC29,169,150,24,8
+    LTEXT           "Y1 =",IDC_STATIC30,117,150,15,8
+    GROUPBOX        "Along  Z axis",IDC_STATIC12,7,167,223,37
+    LTEXT           "100",IDC_STATIC9,50,177,40,8
+    LTEXT           "to Z2 =",IDC_STATIC41,169,188,24,8
+    LTEXT           "Z1 =",IDC_STATIC42,117,188,15,8
+END
+
+IDD_DIALOG11 DIALOG DISCARDABLE  0, 0, 116, 103
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Choose Model Color"
+FONT 8, "MS Sans Serif"
+BEGIN
+    PUSHBUTTON      "Choose Color->",IDC_BUTTON1,7,68,102,13
+    DEFPUSHBUTTON   "Next->",IDOK,7,82,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,59,82,50,14
+END
+
+IDD_DIALOG12 DIALOG DISCARDABLE  0, 0, 152, 71
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Rotation speed"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LISTBOX         IDC_LIST1,31,19,17,43,LBS_SORT | LBS_NOINTEGRALHEIGHT | 
+                    WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "OK",IDOK,95,7,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,95,23,50,14
+    PUSHBUTTON      "Help",ID_HELP,95,39,50,14
+    LTEXT           "Rotate by 5 degree",IDC_STATIC,7,7,62,8
+    LTEXT           " milliseconds",IDC_STATIC,50,17,40,8
+    LTEXT           "every",IDC_STATIC,10,17,18,8
+END
+
+IDD_DIALOG13 DIALOGEX 0, 0, 168, 47
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "View Distance"
+FONT 8, "MS Sans Serif", 0, 0, 0x1
+BEGIN
+    EDITTEXT        IDC_EDIT1,7,7,98,13,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "&OK",IDOK,111,7,50,14
+    PUSHBUTTON      "Help",ID_HELP,7,26,50,14,0,0,HID_HELP
+    PUSHBUTTON      "&Default",IDC_BUTTON1,59,26,50,14
+    PUSHBUTTON      "&Cancel",IDCANCEL,111,26,50,14
+END
+
+IDD_DIALOG14 DIALOG DISCARDABLE  0, 0, 194, 201
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Model Info"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,72,180,50,14
+    GROUPBOX        "File",IDC_STATIC1,7,2,180,36
+    LTEXT           "File Path:",IDC_STATIC2,11,12,30,8
+    EDITTEXT        IDC_EDIT1,44,12,137,12,ES_AUTOHSCROLL | ES_READONLY | 
+                    NOT WS_BORDER
+    LTEXT           "File Size:",IDC_STATIC3,12,25,29,8
+    LTEXT           "100 bytes",IDC_STATIC4,44,25,136,8
+    GROUPBOX        "Model",IDC_STATIC5,7,43,180,82
+    LTEXT           "Comprises of 100 triangles",IDC_STATIC6,12,54,169,8
+    LTEXT           "Takes up 100 bytes of memory to load.",IDC_STATIC7,12,
+                    66,169,8
+    LTEXT           "Range of coordinate points:",IDC_STATIC8,12,77,169,8
+    LTEXT           "X: 100.00 to 100.00 ",IDC_STATIC9,21,88,158,8
+    LTEXT           "Y: 100.00 to 100.00 ",IDC_STATIC10,21,99,158,8
+    LTEXT           "Z: 100.00 to 100.00 ",IDC_STATIC11,21,110,158,8
+    GROUPBOX        "Display Info",IDC_STATIC12,7,129,180,47
+    LTEXT           "View Distance:",IDC_STATIC13,14,141,48,8
+    LTEXT           "100.00",IDC_STATIC14,66,141,115,8
+    EDITTEXT        IDC_EDIT2,14,152,166,16,ES_MULTILINE | ES_READONLY | NOT 
+                    WS_BORDER
+END
+
+IDD_DIALOG15 DIALOG DISCARDABLE  0, 0, 186, 188
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Keyboard Shortcuts"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,66,165,50,14
+END
+
+IDD_DIALOG16 DIALOG DISCARDABLE  0, 0, 180, 218
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Modify Mold points"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "N =",IDC_STATIC7,26,103,12,8
+    EDITTEXT        IDC_EDIT1,56,162,28,12,ES_AUTOHSCROLL | ES_NUMBER
+    EDITTEXT        IDC_EDIT2,115,162,28,12,ES_AUTOHSCROLL | ES_NUMBER
+    PUSHBUTTON      "Help",ID_HELP,16,197,50,14
+    DEFPUSHBUTTON   "OK",IDOK,68,197,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,120,197,50,14
+    LTEXT           "Better results can be obtained by assigning more points along the X and Y axis. ",
+                    IDC_STATIC1,7,7,163,18
+    LTEXT           "However, more the number of points, more would be the file sizes and computation time. ",
+                    IDC_STATIC2,7,25,163,18
+    LTEXT           "Please select an appropriate point density using the following options:",
+                    IDC_STATIC3,7,45,163,18
+    LTEXT           "X = 20000 Y=20000",IDC_STATIC4,65,67,105,8,NOT WS_GROUP
+    GROUPBOX        "",IDC_STATIC5,21,93,148,44
+    LTEXT           "Image width: 213 pixels",IDC_STATIC8,71,99,92,8
+    LTEXT           "Image height: 213 pixels",IDC_STATIC9,71,108,93,8
+    LTEXT           "X = 20000",IDC_STATIC10,71,117,92,8
+    LTEXT           "Y = 20000",IDC_STATIC11,71,127,93,8
+    GROUPBOX        "",IDC_STATIC12,20,154,150,23
+    LTEXT           "X =",IDC_STATIC13,42,162,12,8
+    LTEXT           "Y =",IDC_STATIC14,101,162,12,8
+    CONTROL         "Use existing:",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,7,66,54,10
+    CONTROL         "One more than N times the image width and ht",
+                    IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,8,85,162,10
+    CONTROL         "Other:",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON,7,147,
+                    166,10
+END
+
+IDD_DIALOG6 DIALOG DISCARDABLE  0, 0, 185, 124
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Camera Location"
+FONT 8, "MS Sans Serif"
+BEGIN
+    CONTROL         "Located at",IDC_RADIO4,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,14,9,50,10
+    CONTROL         "Rotate",IDC_RADIO5,"Button",BS_AUTORADIOBUTTON,14,56,37,
+                    10
+    EDITTEXT        IDC_EDIT2,74,9,48,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT11,74,24,48,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT17,74,39,48,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT18,42,84,18,12,ES_NUMBER
+    CONTROL         "Spin2",IDC_SPIN5,"msctls_updown32",UDS_WRAP | 
+                    UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS | 
+                    UDS_NOTHOUSANDS,62,84,8,13
+    EDITTEXT        IDC_EDIT19,91,84,18,12,ES_NUMBER
+    CONTROL         "Spin2",IDC_SPIN6,"msctls_updown32",UDS_WRAP | 
+                    UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS | 
+                    UDS_NOTHOUSANDS,111,84,8,13
+    EDITTEXT        IDC_EDIT20,74,100,48,12,ES_AUTOHSCROLL
+    DEFPUSHBUTTON   "OK",IDOK,127,9,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,127,25,50,14
+    PUSHBUTTON      "Help",ID_HELP,127,41,50,14
+    LTEXT           "X:",IDC_STATIC17,64,9,8,9,SS_CENTERIMAGE
+    LTEXT           "Y:",IDC_STATIC19,64,24,8,9,SS_CENTERIMAGE
+    LTEXT           "Z:",IDC_STATIC22,64,39,8,9,SS_CENTERIMAGE
+    LTEXT           "Around:",IDC_STATIC23,17,66,24,12,SS_CENTERIMAGE
+    LTEXT           "Deg:",IDC_STATIC24,24,86,16,8,SS_CENTERIMAGE
+    LTEXT           "Min:",IDC_STATIC25,75,86,14,8,SS_CENTERIMAGE
+    LTEXT           "Radius:",IDC_STATIC26,48,102,25,8,SS_CENTERIMAGE
+END
+
+IDD_DIALOG17 DIALOG DISCARDABLE  0, 0, 177, 143
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Looking At (Camera View Direction)"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_EDIT1,67,9,48,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT10,67,24,48,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT14,67,39,48,12,ES_AUTOHSCROLL
+    EDITTEXT        IDC_EDIT15,35,84,18,12,ES_NUMBER
+    EDITTEXT        IDC_EDIT16,84,84,18,12,ES_NUMBER
+    CONTROL         "Spin2",IDC_SPIN2,"msctls_updown32",UDS_WRAP | 
+                    UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS | 
+                    UDS_NOTHOUSANDS,55,84,8,13
+    CONTROL         "Spin2",IDC_SPIN4,"msctls_updown32",UDS_WRAP | 
+                    UDS_SETBUDDYINT | UDS_AUTOBUDDY | UDS_ARROWKEYS | 
+                    UDS_NOTHOUSANDS,104,84,8,13
+    CONTROL         "Located at",IDC_RADIO1,"Button",BS_AUTORADIOBUTTON | 
+                    WS_GROUP,7,9,50,10
+    CONTROL         "Rotate",IDC_RADIO2,"Button",BS_AUTORADIOBUTTON,7,56,37,
+                    10
+    CONTROL         "Point to ",IDC_RADIO3,"Button",BS_AUTORADIOBUTTON,7,107,
+                    37,10
+    LTEXT           "Deg:",IDC_STATIC34,18,86,16,8,SS_CENTERIMAGE
+    LTEXT           "Min:",IDC_STATIC35,69,86,14,8,SS_CENTERIMAGE
+    LTEXT           "Around:",IDC_STATIC33,10,66,24,12,SS_CENTERIMAGE
+    LTEXT           "Z:",IDC_STATIC31,57,39,8,9,SS_CENTERIMAGE
+    LTEXT           "Y:",IDC_STATIC30,57,24,8,9,SS_CENTERIMAGE
+    LTEXT           "X:",IDC_STATIC29,57,9,8,9,SS_CENTERIMAGE
+    PUSHBUTTON      "Help",ID_HELP,120,41,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,120,25,50,14
+    DEFPUSHBUTTON   "OK",IDOK,120,9,50,14
+END
+
+IDD_DIALOG18 DIALOG DISCARDABLE  0, 0, 289, 170
+STYLE WS_POPUP
+FONT 8, "MS Sans Serif"
+BEGIN
+END
+
+IDD_DIALOG19 DIALOG DISCARDABLE  0, 0, 219, 154
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About IBModeler"
+FONT 8, "MS Sans Serif"
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,162,7,50,14
+    ICON            IDR_CHILDFRAME2,IDC_STATIC,11,11,21,20
+    LTEXT           "IBModeler",IDC_STATIC,39,16,33,8
+    LTEXT           "Version 1.0",IDC_STATIC,7,36,36,8
+    LTEXT           "Copyright © 2004 Ajubaa Multimedia Solutions",
+                    IDC_STATIC,7,52,146,8
+    EDITTEXT        IDC_EDIT1,7,101,205,46,ES_MULTILINE | ES_AUTOVSCROLL | 
+                    ES_READONLY
+    LTEXT           "(www.ajubaa.com)",IDC_STATIC,94,60,60,8
+    LTEXT           "Product ID: SDFASDFDSFSDFDSFDSFDSFDSFDSFD",IDC_STATIC1,
+                    7,79,175,8
+END
+
+IDD_DIALOG20 DIALOG DISCARDABLE  0, 0, 172, 158
+STYLE DS_MODALFRAME | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Identify a Red, Green or Blue background"
+FONT 8, "MS Sans Serif"
+BEGIN
+    LTEXT           "Background color: ",IDC_STATIC1,8,6,61,8
+    EDITTEXT        IDC_EDIT1,108,29,18,12,ES_NUMBER
+    EDITTEXT        IDC_EDIT2,108,62,15,12,ES_NUMBER
+    EDITTEXT        IDC_EDIT3,19,103,18,12,ES_NUMBER
+    EDITTEXT        IDC_EDIT4,19,118,18,12,ES_NUMBER
+    EDITTEXT        IDC_EDIT5,20,134,18,12,ES_NUMBER
+    DEFPUSHBUTTON   "&OK",IDOK,113,103,50,14
+    PUSHBUTTON      "&Cancel",IDCANCEL,113,120,50,14
+    PUSHBUTTON      "&Help",ID_HELP,113,137,50,14
+    LTEXT           "Red value always greater than Green and Blue by at least",
+                    IDC_STATIC2,6,26,99,18
+    LTEXT           "Maximum allowed difference between Green and Blue as a percentage of the above value:",
+                    IDC_STATIC3,6,51,102,24
+    GROUPBOX        "Test view a RGB color",IDC_STATIC4,6,91,90,60,BS_CENTER
+    LTEXT           "R:",IDC_STATIC5,9,105,8,8
+    LTEXT           "G:",IDC_STATIC6,9,121,8,8
+    LTEXT           "B:",IDC_STATIC7,10,137,8,8
+    LTEXT           "%",IDC_STATIC,126,66,12,9
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO DISCARDABLE 
+BEGIN
+    IDD_DIALOG1, DIALOG
+    BEGIN
+        BOTTOMMARGIN, 261
+    END
+
+    IDD_DIALOG2, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 160
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 88
+    END
+
+    IDD_DIALOG4, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 200
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 168
+    END
+
+    IDD_DIALOG5, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 240
+        VERTGUIDE, 112
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 182
+        HORZGUIDE, 91
+    END
+
+    IDD_DIALOG7, DIALOG
+    BEGIN
+        VERTGUIDE, 7
+        VERTGUIDE, 264
+        BOTTOMMARGIN, 251
+        HORZGUIDE, 145
+        HORZGUIDE, 233
+        HORZGUIDE, 248
+    END
+
+    IDD_DIALOG8, DIALOG
+    BEGIN
+        RIGHTMARGIN, 357
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 257
+    END
+
+    IDD_DIALOG9, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 114
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 123
+    END
+
+    IDD_DIALOG10, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 230
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 227
+    END
+
+    IDD_DIALOG11, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 109
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 96
+    END
+
+    IDD_DIALOG12, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 145
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 64
+    END
+
+    IDD_DIALOG13, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 161
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 40
+    END
+
+    IDD_DIALOG14, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 187
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 194
+    END
+
+    IDD_DIALOG15, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 179
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 181
+    END
+
+    IDD_DIALOG16, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 173
+        VERTGUIDE, 170
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 211
+    END
+
+    IDD_DIALOG6, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 178
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 117
+    END
+
+    IDD_DIALOG17, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 170
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 136
+    END
+
+    IDD_DIALOG18, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 282
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 163
+    END
+
+    IDD_DIALOG19, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 212
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 147
+    END
+
+    IDD_DIALOG20, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 165
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 151
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS DISCARDABLE 
+BEGIN
+    "A",            2211,                   VIRTKEY, CONTROL, NOINVERT
+    "B",            2205,                   VIRTKEY, CONTROL, NOINVERT
+    "C",            2206,                   VIRTKEY, CONTROL, NOINVERT
+    "I",            3201,                   VIRTKEY, CONTROL, NOINVERT
+    "K",            3302,                   VIRTKEY, CONTROL, NOINVERT
+    "M",            2106,                   VIRTKEY, CONTROL, NOINVERT
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL, NOINVERT
+    "R",            3204,                   VIRTKEY, NOINVERT
+    "R",            3206,                   VIRTKEY, CONTROL, NOINVERT
+    "R",            2107,                   VIRTKEY, ALT, NOINVERT
+    "S",            2212,                   VIRTKEY, NOINVERT
+    "S",            2103,                   VIRTKEY, CONTROL, NOINVERT
+    "S",            2104,                   VIRTKEY, SHIFT, CONTROL, 
+                                                    NOINVERT
+    VK_F1,          1201,                   VIRTKEY, NOINVERT
+    VK_F4,          ID_FILE_CLOSE,          VIRTKEY, CONTROL, NOINVERT
+    VK_F4,          2105,                   VIRTKEY, SHIFT, CONTROL, 
+                                                    NOINVERT
+    "Y",            2202,                   VIRTKEY, CONTROL, NOINVERT
+    "Z",            2201,                   VIRTKEY, CONTROL, NOINVERT
+END
+
+
+#ifndef _MAC
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,0,0,1
+ PRODUCTVERSION 1,0,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x40004L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "\0"
+            VALUE "CompanyName", " \0"
+            VALUE "FileDescription", "IBModeler\0"
+            VALUE "FileVersion", "1, 0, 0, 1\0"
+            VALUE "InternalName", "IBModeler\0"
+            VALUE "LegalCopyright", "Copyright © 2004\0"
+            VALUE "LegalTrademarks", "\0"
+            VALUE "OriginalFilename", "IBModeler.exe\0"
+            VALUE "PrivateBuild", "\0"
+            VALUE "ProductName", "  IBModeler\0"
+            VALUE "ProductVersion", "1, 0, 0, 1\0"
+            VALUE "SpecialBuild", "\0"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+#endif    // !_MAC
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDR_CHILDFRAME2         "\nModel\nGenerate a Model from existing Mold \nModel(*.mdl)\n.mdl\nModel.File\nModel File"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    ID_FILE_NEW             "Start a new project to replicate a real-world model from it's images.\nStart a new project to replicate a real-world model from it's images."
+    ID_FILE_OPEN            "Open and process an existing mold file to create model or view an existing model.\nOpen and process an existing mold file to create model or view an existing model."
+    ID_FILE_CLOSE           "Close\nClose"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    1103                    "Exit\nExit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    1104                    "Close"
+    1105                    "Exit"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    1201                    "Help Contents\nHelp Contents"
+    1202                    "About IBModeler\nAbout IBModeler"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    2101                    "Load a Bitmap Image\nLoad a Bitmap Image"
+    2102                    "Close Bitmap file"
+    2103                    "Save Image\nSave Image"
+    2104                    "Save Image As\nSave Image As "
+    2105                    "Close Image File\nClose Image File"
+    2106                    "Create Model\nCreate Model"
+    2107                    "Runs a script to perform a series of operations\nRuns a script to perform a series of operations"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    2201                    "Undo the last operation\nUndo the last operation"
+    2202                    "Redo the last operation\nRedo the last operation"
+    2203                    "Change the background color\nChange the background color"
+    2204                    "Change the color of the padded region around the image\nChange the color of the padded region around the image"
+    2205                    "Sets the clicked region to background\nSets the clicked region to background"
+    2206                    "Sets the selected color to background\nSets the selected color to background"
+    2207                    "Change Marker Size\nChange Marker Size"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    2301                    "View Mold Details\nView Mold Details"
+    2302                    "View Image Toolbar\nView Image Toolbar"
+    2303                    "Original size"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    2304                    "Double the actual image size"
+    2305                    "Three times the actual image size"
+    2306                    "Four times the actual image size"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    2208                    "Alter Image size\nAlter Image size"
+    2209                    "Change Camera Parameters\nChange Camera Parameters"
+    2210                    "Save Camera Parameters to file\nSave Camera Parameters to file"
+    2211                    "Apply the image to the mold file\nApply the image to the mold file"
+    2212                    "Identifies a Red, Blue or Green screen and sets it as background\nIdentifies a Red, Blue or Green screen and sets it as background"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    3201                    "View Model Info\nView Model Info"
+    3202                    "View in the default color of the model\nView in the default color of the model"
+    3203                    "View Model in a different color\nView Model in a different color"
+    3204                    "Toggle Rotation\nToggle Rotation"
+    3205                    "Toggle Rotation Axis\nToggle Rotation Axis"
+    3206                    "Alter the speed at which the model is rotating\nAlter the speed at which the model is rotating"
+    3207                    "View from Front\nView from Front"
+    3208                    "View from Top\nView from Top"
+    3209                    "View from Left\nView from Left"
+    3210                    "View from Right\nView from Right"
+    3211                    "View from Back\nView from Back"
+    3212                    "View from Bottom\nView from Bottom"
+    3213                    "Change view distance\nChange view distance"
+    3214                    "Toggle display of Coordinate Axes\nToggle display of Coordinate Axes"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    3101                    "Closes this model file."
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    3301                    "Display the model in it's default color"
+    3302                    "Keyboard Help\nKeyboard Help"
+    3303                    "Display the model in it's default color"
+    3304                    "Choose a color for the model display"
+END
+
+STRINGTABLE DISCARDABLE 
+BEGIN
+    IDR_CHILDFRAME3         "\nMold\nCreate a New Mold\nMold (*.mld)\n.mld\nMold.File\nMold File"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

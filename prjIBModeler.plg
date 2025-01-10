@@ -1,0 +1,53 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: prjIBModeler - Win32 Debug--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating command line "rc.exe /l 0x409 /fo"Debug/Script1.res" /d "_DEBUG" /d "_AFXDLL" "E:\projects\development\prjIBModeler\Script1.rc"" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP4016.TMP" with contents
+[
+/nologo /MDd /W3 /Gm /GX /ZI /Od /D "WIN32" /D "_DEBUG" /D "_WINDOWS" /D "_MBCS" /D "_AFXDLL" /Fp"Debug/prjIBModeler.pch" /YX /Fo"Debug/" /Fd"Debug/" /FD /GZ /c 
+"E:\projects\development\prjIBModeler\modeldoc.cpp"
+"E:\projects\development\prjIBModeler\modelview.cpp"
+"E:\projects\development\prjIBModeler\molddoc.cpp"
+"E:\projects\development\prjIBModeler\moldview.cpp"
+"E:\projects\development\prjIBModeler\myapp.cpp"
+"E:\projects\development\prjIBModeler\mychildwnd.cpp"
+"E:\projects\development\prjIBModeler\myframe.cpp"
+]
+Creating command line "cl.exe @C:\WINDOWS\TEMP\RSP4016.TMP" 
+Creating temporary file "C:\WINDOWS\TEMP\RSP4017.TMP" with contents
+[
+/nologo /subsystem:windows /incremental:yes /pdb:"Debug/prjIBModeler.pdb" /debug /machine:I386 /out:"Debug/prjIBModeler.exe" /pdbtype:sept 
+.\Debug\modeldoc.obj
+.\Debug\modelview.obj
+.\Debug\molddoc.obj
+.\Debug\moldview.obj
+.\Debug\myapp.obj
+.\Debug\mychildwnd.obj
+.\Debug\myframe.obj
+.\Debug\Script1.res
+]
+Creating command line "link.exe @C:\WINDOWS\TEMP\RSP4017.TMP"
+<h3>Output Window</h3>
+Compiling resources...
+Compiling...
+modeldoc.cpp
+modelview.cpp
+molddoc.cpp
+moldview.cpp
+myapp.cpp
+mychildwnd.cpp
+myframe.cpp
+Linking...
+
+
+
+<h3>Results</h3>
+prjIBModeler.exe - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>

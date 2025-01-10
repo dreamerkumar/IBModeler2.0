@@ -1,0 +1,10 @@
+BYTE btCameraAtInfinity;
+float fltHtDistance1;
+float fltHtDistance2;
+float fltHeight1;
+float fltHeight2;
+BYTE btWtSameAsHt;
+float fltWtDistance1;
+float fltWtDistance2;
+float fltWidth1;
+float fltWidth2;

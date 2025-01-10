@@ -1,0 +1,70 @@
+Main app:
+Options:
+	Create New Model
+	Open
+	Exit
+Help:
+	Contents
+	About IBModeler
+
+Mold file:
+Options:
+	Load Image
+	Save Image
+	Save As Bitmap
+	Close Image file
+	Create Model
+	Close Project
+	Exit
+Edit Image
+	Undo
+	Redo
+	Colors:
+		Background
+		Padding
+	Change Marker Type
+		Sets Region As background
+		Sets Color As background
+	Change Marker Size
+	Alter Image Size
+	Camera Parameters
+		Change
+		Save
+	Apply To Mold
+View 
+	Mold Details
+	Image Toolbar
+Help:
+	Contents
+	About IBModeler
+
+Model file:
+Options
+	Close File
+	Exit
+View
+	Model Info
+	Color
+		Model Color
+		Choose Different
+	Rotate
+		Toggle Rotation
+		Toggle Axis
+		Rotation Speed
+	View Direction 
+		Front View 
+		Top View  
+		Left View 
+		Right View 
+		Back View 
+		Bottom View 
+	View Distance
+	Toggle Axis Display
+Help:
+	Contents
+	Keyboard Help
+	About IBModeler
+	
+
+
+		
